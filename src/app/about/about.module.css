@@ -1,0 +1,49 @@
+.container{
+
+}
+
+.imgContainer{
+    position: relative;
+    height: 300px;
+}
+
+.img{
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+.textBox{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: #53c28b;
+    padding: 10px 20px;
+    color: #fff;
+}
+.textBoxTitle{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.textBoxDesc{
+    font-size: 18px;
+}
+.textContent{
+    display: flex;
+     gap:30px
+}
+.item{
+    flex:1;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.description{
+    font-size: 18px;
+    font-weight: 300;
+    text-align: justify;
+}
+.title{
+    font-size: 28px;
+    font-weight: 600;
+}

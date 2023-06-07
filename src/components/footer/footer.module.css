@@ -1,0 +1,16 @@
+.container{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social{
+    display: flex;
+    gap:10px
+}
+
+.icon{
+    opacity: 0.6;
+    cursor: pointer;
+}

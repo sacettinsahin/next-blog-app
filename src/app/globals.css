@@ -28,3 +28,14 @@ a{
   justify-content: space-between;
 }
 
+.light{
+  background-color: white;
+  color: #111;
+}
+.dark{
+  background-color: #111;
+  color: white;
+}
+.theme{
+  transition: 1s all ease;
+}

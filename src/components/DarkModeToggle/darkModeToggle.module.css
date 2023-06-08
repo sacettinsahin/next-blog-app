@@ -1,5 +1,5 @@
 .container{
-    width: 50px;
+    width: 42px;
     height: 24px;
     border: 1.5px solid #53c28b70;
     border-radius: 30px;
@@ -20,4 +20,5 @@
 .icon{
     font-size: 14px;
     cursor: pointer;
+    color: yellow;
 }
